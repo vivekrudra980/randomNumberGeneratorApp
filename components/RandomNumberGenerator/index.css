@@ -1,0 +1,43 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0px;
+}
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 70vh;
+  width: 40vw;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: 10px;
+  background-color: white;
+  color: #0b69ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 40px;
+  width: 140px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.number {
+  color: #0b69ff;
+  font-size: 30px;
+  font-weight: 600;
+}
